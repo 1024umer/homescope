@@ -1,0 +1,10 @@
+<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('assets/js/home.js') }}"></script>
+{{-- <script src="{{asset('public/frontend-asset/assets/js/jquery.min.js')}}"></script>
+      <script src="{{asset('public/frontend-asset/assets/js/bootstrap.min.js')}}"></script> --}}
+<script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.lazy.min.js') }}"></script>
+<script src="{{ asset('assets/js/popper.js') }}"></script>
+<script src="{{ asset('assets/js/tippy.js') }}"></script>
+{{-- <script src="{{asset('public/assets/js/custom.js')}}"></script>  --}}

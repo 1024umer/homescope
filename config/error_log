@@ -1,0 +1,16 @@
+[13-Sep-2023 15:42:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/homeloej/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/homeloej/public_html/config/cache.php on line 18
+[27-Sep-2023 22:47:01 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/homeloej/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/homeloej/public_html/config/cache.php on line 18
+[06-Nov-2023 13:30:51 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/homeloej/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/homeloej/public_html/config/cache.php on line 18
+[13-Dec-2023 12:41:52 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/homeloej/public_html/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/homeloej/public_html/config/cache.php on line 18

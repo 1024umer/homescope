@@ -1,0 +1,38 @@
+
+
+@media (min-width: 992px) {
+    .container {
+       width: 970px;
+    }
+   
+ }
+ 
+ @media (min-width: 768px) {
+    .container {
+       width: 750px;
+    }
+    
+ }
+ 
+ 
+ @media (max-width: 1400px) {
+    .container {
+       width: 90%;
+    }
+ }
+ 
+ @media (min-width: 1300px) {
+    .container {
+       width: 1300px;
+    }
+ }
+ @media (max-width: 992px) {
+    .container {
+       width: 100%;
+    }
+    .str_list_item {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      grid-gap: 15px;
+  }
+ }
