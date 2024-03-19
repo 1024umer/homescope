@@ -19,6 +19,13 @@
             height: 100%;
             position: absolute;
         }
+
+        .can-hel-overlay {
+            background: #000000ad;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
     </style>
     <div class="position-relative">
         <div class="py-md-23 py-22"
@@ -330,7 +337,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="heading" data-heading="Projects">
+                    <div class="heading text-center" data-heading="Projects">
                         <span>Re-Sale Projects</span>
                     </div>
                     <div class="featured-slide owl-carousel owl-theme">
@@ -420,7 +427,9 @@
 
         </div>
     </section>
-    <div class="can-help-area pt-100 pb-100" style="background:#3E3C3D">
+    <div class="can-hel-overlay"></div>
+    <div class="can-help-area"
+        style="background: url('{{ asset('bg.jpeg') }}'),no-repeat center; background-size: cover; background-attachment: fixed;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 wow animate__animated animate__fadeInUp delay-0-2s animated"

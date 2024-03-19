@@ -8663,9 +8663,18 @@ fieldset:disabled .btn {
     --bs-text-opacity: 1;
     color: rgba(255, 255, 255, .5) !important;
 }
-.text-reset:hover{
-transform:scale(1.1);
+
+.text-reset img:hover {
+    transform: scale(1.1);
+    transition: .7s;
 }
+
+.card-body span:hover {
+    background-color: #fff;
+    color: #C59E53;
+    transition: .4s;
+}
+
 .text-reset {
     --bs-text-opacity: 1;
     color: inherit !important;
@@ -27246,7 +27255,7 @@ img {
 
 .banner-content p span,
 .banner-content h6 span {
-    color:white
+    color: white
 }
 
 .banner-content h6 {
@@ -27533,7 +27542,7 @@ img {
 .owl-theme .owl-dots .owl-dot span {
     border-radius: 0;
     width: 40px;
-    height: 9px;
+    height: 4px;
     border: solid 1px #869791;
     margin: 5px 3px;
     background: #fff
@@ -30418,6 +30427,7 @@ p.article_name {
         width: 100%
     }
 }
+
 .community-title-area {
     position: relative;
     z-index: 1;
@@ -30490,6 +30500,7 @@ p.article_name {
 .page-title-content ul li:last-child::before {
     display: none
 }
+
 .contacts-info {
     padding: 15px
 }
@@ -30581,11 +30592,11 @@ p.article_name {
 }
 
 .single-agents {
-    background:#3E3A29;
+    background: #3E3A29;
     margin-bottom: 30px;
     position: relative;
     z-index: 1;
-    border:1px solid #C59E53;
+    border: 1px solid #C59E53;
     border-radius: 7px;
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s
