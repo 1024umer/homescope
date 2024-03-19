@@ -12,17 +12,28 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+
+        .over-lay {
+            background: #000000bd;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
     </style>
     <div class="position-relative">
-        <div class="py-md-23 py-22 "
-            style="background-size: cover; background-position: 50%;
-                background-image: url({{ asset('assets/images/banner.jpg') }});">
+        <div class="py-md-23 py-22"
+            style="background: url('{{ asset('assets/images/banner-video-thumbnail.jpg') }}'); background-size: cover; background-position: 50%;">
+            <video autoplay muted loop playsinline
+                style="position: absolute; z-index:1; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                <source src="{{ asset('assets/images/banner-video.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
         <div class="mt-n22">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-10 col-md-12 col-12">
-                        <div class="mb-md-12 text-center">
+                        <div class="mb-md-12 text-center animate__zoomIn" style="position: relative;z-index:1">
                             <h2 class=" display-5 mb-2 fw-bold txt-grad">Welcome</h2>
                             <h1 class=" display-5 mb-2 fw-bold txt-grad">Homescope Real Estate</h1>
                             <p class=" txt-grad" style="font-size:30px;">Unlock Your Dream Home Today</p>
@@ -235,11 +246,14 @@
     <!--        </div>-->
     <!--    </div>-->
     <!--</div>-->
-    <section class="featured_offers">
+
+    <div class="over-lay"></div>
+    <section class="featured_offers"
+        style="background: url('{{ asset('bg.jpeg') }}'),no-repeat center; background-size: cover; background-attachment: fixed;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="heading" data-heading="Projects">
+                    <div class="heading text-center" data-heading="Projects">
                         <span>Featured Projects</span>
                     </div>
                     <div class="featured-slide owl-carousel owl-theme">
@@ -522,7 +536,8 @@
                                                     alt='{{ $row->name }}' class='img-fluid' width='391'
                                                     height='367' />
                                                 <h3>{{ $row->name }}</h3>
-                                            </a></div>
+                                            </a>
+                                        </div>
                                     </div>
                                 @endforeach
                             </div>

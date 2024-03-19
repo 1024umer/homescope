@@ -8656,17 +8656,19 @@ fieldset:disabled .btn {
 
 .text-black-50 {
     --bs-text-opacity: 1;
-    color: rgba(0, 0, 0, .5) !important
+    color: rgba(0, 0, 0, .5) !important;
 }
 
 .text-white-50 {
     --bs-text-opacity: 1;
-    color: rgba(255, 255, 255, .5) !important
+    color: rgba(255, 255, 255, .5) !important;
 }
-
+.text-reset:hover{
+transform:scale(1.1);
+}
 .text-reset {
     --bs-text-opacity: 1;
-    color: inherit !important
+    color: inherit !important;
 }
 
 .text-opacity-25 {

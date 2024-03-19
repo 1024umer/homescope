@@ -8,3 +8,6 @@
 <script src="{{ asset('assets/js/popper.js') }}"></script>
 <script src="{{ asset('assets/js/tippy.js') }}"></script>
 {{-- <script src="{{asset('public/assets/js/custom.js')}}"></script>  --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
