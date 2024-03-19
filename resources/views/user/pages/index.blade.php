@@ -26,21 +26,45 @@
             width: 100%;
             height: 100%;
         }
+
+        .video-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #0000009c;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+
+        .featured_offers {
+            background: transparent;
+            padding: 0;
+        }
+
+        .featured_offers .heading span {
+            color: #f0af0b;
+        }
+
+        .proj-list {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+        }
     </style>
     <div class="position-relative">
-        <div class="py-md-23 py-22"
-            style="background: url('{{ asset('assets/images/banner-video-thumbnail.jpg') }}'); background-size: cover; background-position: 50%;">
+        <div class="py-md-23 py-22">
+            <div class="video-overlay"></div>
             <video autoplay muted loop playsinline
-                style="position: absolute; z-index:1; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                style="position: absolute; z-index:1; top: 0; left: 0; width: 100%; height: 100%; object-fit: fill;">
                 <source src="{{ asset('assets/images/banner-video.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
+
         <div class="mt-n22">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-10 col-md-12 col-12">
-                        <div class="mb-md-12 text-center animate__zoomIn" style="position: relative;z-index:1">
+                        <div class="mb-md-12 text-center animate__zoomIn" style="position: relative;z-index:999">
                             <h2 class=" display-5 mb-2 fw-bold txt-grad">Welcome</h2>
                             <h1 class=" display-5 mb-2 fw-bold txt-grad">Homescope Real Estate</h1>
                             <p class=" txt-grad" style="font-size:30px;">Unlock Your Dream Home Today</p>
@@ -134,130 +158,15 @@
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--<div class="banner-area bg-color-f4fafe">-->
-    <!--    <div class="container">-->
-    <!--        <div class="row">-->
-    <!--            <div class="col-lg-6 col-xl-5">-->
-    <!--                <div class="banner-content pt-70 pb-3">-->
-
-    <!--                    <h1 class="" style="color:white">Homescope Real Estate</h1>-->
-    <!--                    <p class="subtext wow animate__animated animate__fadeInUp delay-0-6s"><span>Invest In The Best-->
-    <!--                            Properties </span>-->
-    <!--                        Of Dubai And <br /> <span>Get A 10-Year</span> Golden <span>Visa</span></p>-->
-    <!--                    <div class="banner-rent-sale-form">-->
-    <!--                        <div class="rent-sale-form wow animate__animated animate__fadeInUp delay-0-8s">-->
-    <!--                            <h6 class="mb-3">WHAT ARE YOU LOOKING FOR? <span class="small">(Easily find the-->
-    <!--                                    house of your choice)</span></h6>-->
-    <!--                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">-->
-    <!--                                <li class="nav-item" role="presentation">-->
-    <!--                                    <button class="nav-link active" id="for-rent-tab" data-bs-toggle="pill"-->
-    <!--                                        data-bs-target="#for-rent" type="button" role="tab"-->
-    <!--                                        aria-controls="for-rent" aria-selected="false">Buy</button>-->
-    <!--                                </li>-->
-
-    <!--                            </ul>-->
-    <!--                            <div class="tab-content" id="pills-tabContent">-->
-    <!--                                <div class="tab-pane fade show active" id="for-rent" role="tabpanel"-->
-    <!--                                    aria-labelledby="for-rent-tab">-->
-    <!--                                    <div class="row g-2">-->
-    <!--                                        <div class="col-lg-3">-->
-    <!--                                            <div class="form-group">-->
-    <!--                                                <select id="PTTypebuyId" class="form-select form-control">-->
-    <!--                                                    <option selected>Property Type</option>-->
-    <!--                                                    <option value='appartment'>Apartment</option>-->
-    <!--                                                    <option value='villa'>Villa</option>-->
-    <!--                                                    <option value='townhouse'>Townhouse</option>-->
-    <!--                                                </select>-->
-    <!--                                            </div>-->
-    <!--                                        </div>-->
-    <!--                                        <div class="col-lg-7">-->
-    <!--                                            <div class="form-group">-->
-    <!--                                                <input list="locoption" id="txtlocoptionbuyId" class="form-control"-->
-    <!--                                                    placeholder="City Neighbourhood, Community">-->
-    <!--                                                <datalist id="locoption">-->
-    <!--                                                    <option value='Damac Hills'>-->
-    <!--                                                    <option value='Downtown Dubai'>-->
-    <!--                                                    <option value='Dubai Creek Harbour'>-->
-    <!--                                                    <option value='Dubai Investment Park'>-->
-    <!--                                                    <option value='Dubailand'>-->
-    <!--                                                    <option value='Marina'>-->
-    <!--                                                    <option value='Meydan'>-->
-    <!--                                                    <option value='Palm Jumeirah'>-->
-    <!--                                                </datalist>-->
-    <!--                                            </div>-->
-    <!--                                        </div>-->
-    <!--                                        <div class="col-lg-2">-->
-    <!--                                            <div class="form-group mb-0">-->
-    <!--                                                <button type="button" id="btnbuyid" class="default-btn">-->
-    <!--                                                    <i class="ri-search-line"></i> Search-->
-    <!--                                                </button>-->
-    <!--                                            </div>-->
-    <!--                                        </div>-->
-    <!--                                    </div>-->
-    <!--                                </div>-->
-
-    <!--                                <div class="tab-pane fade" id="for-sall" role="tabpanel"-->
-    <!--                                    aria-labelledby="for-sall-tab">-->
-    <!--                                    <div class="row g-2">-->
-    <!--                                        <div class="col-lg-3">-->
-    <!--                                            <div class="form-group">-->
-    <!--                                                <select id="PTTyperentId" class="form-select form-control"-->
-    <!--                                                    aria-label="Default select example">-->
-    <!--                                                    <option selected>Property Type</option>-->
-    <!--                                                    <option value='3'>Apartment</option>-->
-    <!--                                                    <option value='12'>Studio</option>-->
-    <!--                                                </select>-->
-    <!--                                            </div>-->
-    <!--                                        </div>-->
-    <!--                                        <div class="col-lg-7">-->
-    <!--                                            <div class="form-group">-->
-    <!--                                                <input list="locoptionrent" id="txtlocoptionrentId" class="form-control"-->
-    <!--                                                    placeholder="City Neighbourhood, Community">-->
-    <!--                                                <datalist id="locoptionrent">-->
-    <!--                                                    <option value='Dubai Investment Park'>-->
-    <!--                                                    <option value='Jumeirah Lake Towers'>-->
-    <!--                                                    <option value='Palm Jumeirah'>-->
-    <!--                                                </datalist>-->
-    <!--                                            </div>-->
-    <!--                                        </div>-->
-    <!--                                        <div class="col-lg-2">-->
-    <!--                                            <div class="form-group mb-0">-->
-    <!--                                                <button type="button" id="btnrentid" class="default-btn">-->
-    <!--                                                    <i class="ri-search-line"></i> Search-->
-    <!--                                                </button>-->
-    <!--                                            </div>-->
-    <!--                                        </div>-->
-    <!--                                    </div>-->
-    <!--                                </div>-->
-    <!--                            </div>-->
-    <!--                        </div>-->
-
-
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-
-    <!--            <div class="col-lg-6 col-xl-7 d-none d-lg-block">-->
-    <!--                <div class="banner-img wow animate__animated animate__fadeInUp delay-0-6s">-->
-    <!--                    <img src="{{ asset('assets/images/banner.webp') }}" alt="Banner">-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</div>-->
-
-    <div class="over-lay"></div>
-    <section class="featured_offers"
-        style="background: url('{{ asset('bg.jpeg') }}'),no-repeat center; background-size: cover; background-attachment: fixed;">
-        <div class="container">
+    <section class="featured_offers mt-5">
+        <div class="over-la"></div>
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="heading text-center" data-heading="Projects">
@@ -333,8 +242,8 @@
 
         </div>
     </section>
-    <section class="featured_offers">
-        <div class="container">
+    <section class="featured_offers mt-5 mb-5">
+        <div class="container-fluid mt-5">
             <div class="row">
                 <div class="col-md-12">
                     <div class="heading text-center" data-heading="Projects">
@@ -427,8 +336,8 @@
 
         </div>
     </section>
-    <div class="can-hel-overlay"></div>
-    <div class="can-help-area"
+    <div class="can-hel-overlay mt-5 mb-5"></div>
+    <div class="can-help-area mt-5"
         style="background: url('{{ asset('bg.jpeg') }}'),no-repeat center; background-size: cover; background-attachment: fixed;">
         <div class="container">
             <div class="row align-items-center">
@@ -487,10 +396,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-    <section class="combine_stores bg_color">
+    <section class="combine_stores bg_color mt-5 mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -523,8 +431,10 @@
             </div>
         </div>
     </section>
-    <section class="combine_stores bg_color">
-        <div class="container">
+    <section class="combine_stores p-0 bg_color mt-5 mb-5"
+        style="background: url('{{ asset('bg.jpeg') }}'),no-repeat center; background-size: cover; background-attachment: fixed;">
+        <div class="over-lay"></div>
+        <div class="container px-3 py-5">
             <div class="row">
                 <div class="col-md-12">
                     <div class="combine_stores_container">
