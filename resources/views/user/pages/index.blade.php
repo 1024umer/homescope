@@ -165,8 +165,8 @@
         </div>
     </div>
     <section class="featured_offers mt-5">
-        <div class="over-la"></div>
         <div class="container-fluid">
+            <div class="over-la"></div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="heading text-center" data-heading="Projects">
@@ -336,9 +336,9 @@
 
         </div>
     </section>
-    <div class="can-hel-overlay mt-5 mb-5"></div>
     <div class="can-help-area mt-5"
-        style="background: url('{{ asset('bg.jpeg') }}'),no-repeat center; background-size: cover; background-attachment: fixed;">
+        style="background: url('{{ asset('bg.jpeg') }}'),no-repeat center; background-size: cover; background-attachment: fixed; position:relative; height:100%">
+        <div class="can-hel-overlay"></div>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 wow animate__animated animate__fadeInUp delay-0-2s animated"
@@ -432,7 +432,7 @@
         </div>
     </section>
     <section class="combine_stores p-0 bg_color mt-5 mb-5"
-        style="background: url('{{ asset('bg.jpeg') }}'),no-repeat center; background-size: cover; background-attachment: fixed;">
+        style="background: url('{{ asset('bg.jpeg') }}'),no-repeat center; background-size: cover; background-attachment: fixed; position:relative; height:100%">
         <div class="over-lay"></div>
         <div class="container px-3 py-5">
             <div class="row">
