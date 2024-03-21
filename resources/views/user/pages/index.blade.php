@@ -70,7 +70,7 @@
                             <p class=" txt-grad" style="font-size:30px;">Unlock Your Dream Home Today</p>
                             <!--<p class="text-white">Ready &amp; Off Plan Properties For Sale</p>-->
                         </div>
-                        <div class="banner-rent-sale-form">
+                        <div class="banner-rent-sale-form" style="position: relative; z-index: 999;">
                             <div class="rent-sale-form wow animate__animated animate__fadeInUp delay-0-8s">
                                 <h6 class="mb-3" style="color:#C59E53 !important">WHAT ARE YOU LOOKING FOR? <span
                                         class="small" style="color:white">(Easily find the
