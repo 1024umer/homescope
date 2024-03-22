@@ -22359,7 +22359,7 @@ a.meanmenu-reveal {
     background: #0c1923;
     padding: 4px 0;
     min-height: 42px;
-    z-index: 999999
+    z-index: 999999 !important;
 }
 
 .mean-container a.meanmenu-reveal {
@@ -30268,7 +30268,7 @@ img {
     .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-bar {
         background: transparent;
         position: absolute;
-        z-index: 2;
+        z-index: 9999 !important;
         padding: 0
     }
 

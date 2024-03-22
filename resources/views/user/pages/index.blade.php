@@ -34,7 +34,7 @@
             background: #0000009c;
             top: 0;
             left: 0;
-            z-index: 2;
+            z-index: 1;
         }
 
         .featured_offers {
@@ -54,7 +54,7 @@
         <div class="py-md-23 py-22">
             <div class="video-overlay"></div>
             <video autoplay muted loop playsinline
-                style="position: absolute; z-index:1; top: 0; left: 0; width: 100%; height: 100%; object-fit: fill;">
+                style="position: absolute; z-index:0; top: 0; left: 0; width: 100%; height: 100%; object-fit: fill;">
                 <source src="{{ asset('assets/images/banner-video.mp4') }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -64,13 +64,13 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-10 col-md-12 col-12">
-                        <div class="mb-md-12 text-center animate__zoomIn" style="position: relative;z-index:999">
+                        <div class="mb-md-12 text-center animate__zoomIn" style="position: relative;z-index:1">
                             <h2 class=" display-5 mb-2 fw-bold txt-grad">Welcome</h2>
                             <h1 class=" display-5 mb-2 fw-bold txt-grad">Homescope Real Estate</h1>
                             <p class=" txt-grad" style="font-size:30px;">Unlock Your Dream Home Today</p>
                             <!--<p class="text-white">Ready &amp; Off Plan Properties For Sale</p>-->
                         </div>
-                        <div class="banner-rent-sale-form" style="position: relative; z-index: 999;">
+                        <div class="banner-rent-sale-form" style="position: relative; z-index: 1;">
                             <div class="rent-sale-form wow animate__animated animate__fadeInUp delay-0-8s">
                                 <h6 class="mb-3" style="color:#C59E53 !important">WHAT ARE YOU LOOKING FOR? <span
                                         class="small" style="color:white">(Easily find the
@@ -339,7 +339,7 @@
     <div class="can-help-area mt-5"
         style="background: url('{{ asset('bg.jpeg') }}'),no-repeat center; background-size: cover; background-attachment: fixed; position:relative; height:100%">
         <div class="can-hel-overlay"></div>
-        <div class="container">
+        <div class="container" style="position: relative;">
             <div class="row align-items-center">
                 <div class="col-md-6 wow animate__animated animate__fadeInUp delay-0-2s animated"
                     style="visibility: visible; animation-name: fadeInUp;">
