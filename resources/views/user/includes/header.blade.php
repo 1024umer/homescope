@@ -1,46 +1,108 @@
-<div class="container">
-    <div class="py-2">
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <div class="text-start text-center py-1">
-                    <i class="fa fa-phone"></i>
-                    <a href="tel:+971522953747">+971 52 295 3747
-                    </a> / <a href="tel:+971509260992">+971 50 926 0992
-                    </a>
+<section style="background:#3e3c3dc7; padding:0px;">
+    <div class="container">
+        <div class="py-2">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="text-start text-center py-1 text-white">
+                        <i class="fa fa-phone"></i>
+                        <a class="text-white" href="tel:+971522953747">+971 52 295 3747
+                        </a> / <a class="text-white" href="tel:+971509260992">+971 50 926 0992
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="text-end text-center text-dark">
-                    <a class="px-2" href="https://www.tiktok.com/@homescopere?_t=8ks9ZbizlaL&_r=1" target="__blank">
-                        <svg width="25px" height="25px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <title>Tiktok</title>
-                            <g id="Icon/Social/tiktok-black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <path d="M38.0766847,15.8542954 C36.0693906,15.7935177 34.2504839,14.8341149 32.8791434,13.5466056 C32.1316475,12.8317108 31.540171,11.9694126 31.1415066,11.0151329 C30.7426093,10.0603874 30.5453728,9.03391952 30.5619062,8 L24.9731521,8 L24.9731521,28.8295196 C24.9731521,32.3434487 22.8773693,34.4182737 20.2765028,34.4182737 C19.6505623,34.4320127 19.0283477,34.3209362 18.4461858,34.0908659 C17.8640239,33.8612612 17.3337909,33.5175528 16.8862248,33.0797671 C16.4386588,32.6422142 16.0833071,32.1196657 15.8404292,31.5426268 C15.5977841,30.9658208 15.4727358,30.3459348 15.4727358,29.7202272 C15.4727358,29.0940539 15.5977841,28.4746337 15.8404292,27.8978277 C16.0833071,27.3207888 16.4386588,26.7980074 16.8862248,26.3604545 C17.3337909,25.9229017 17.8640239,25.5791933 18.4461858,25.3491229 C19.0283477,25.1192854 19.6505623,25.0084418 20.2765028,25.0219479 C20.7939283,25.0263724 21.3069293,25.1167239 21.794781,25.2902081 L21.794781,19.5985278 C21.2957518,19.4900128 20.7869423,19.436221 20.2765028,19.4380839 C18.2431278,19.4392483 16.2560928,20.0426009 14.5659604,21.1729264 C12.875828,22.303019 11.5587449,23.9090873 10.7814424,25.7878401 C10.003907,27.666593 9.80084889,29.7339663 10.1981162,31.7275214 C10.5953834,33.7217752 11.5748126,35.5530237 13.0129853,36.9904978 C14.4509252,38.4277391 16.2828722,39.4064696 18.277126,39.8028054 C20.2711469,40.1991413 22.3382874,39.9951517 24.2163416,39.2169177 C26.0948616,38.4384508 27.7002312,37.1209021 28.8296253,35.4300711 C29.9592522,33.7397058 30.5619062,31.7522051 30.5619062,29.7188301 L30.5619062,18.8324027 C32.7275484,20.3418321 35.3149087,21.0404263 38.0766847,21.0867664 L38.0766847,15.8542954 Z" id="Fill-1" fill="#000000"></path>
-                            </g>
-                        </svg>
-                    </a>
-                    <a class="px-2" href="https://www.facebook.com/homescopere?mibextid=LQQJ4d" target="__blank">
-                        <i title="Facebook" class="fa fa-facebook-square fa-lg" aria-hidden="true" style="color: #000"></i>
-                    </a>
-                    <a class="px-2" href="https://www.instagram.com/homescopere?igsh=ZG5penR0YnpzNjRz&utm_source=qr" target="__blank">
-                        <i title="Instagram" class="fa fa-instagram fa-lg" aria-hidden="true" style="color: #000"></i>
-                    </a>
-                    <a class="px-2" href="https://www.linkedin.com/company/homescope-real-estate/" target="__blank">
-                        <i title="LinkedIn" class="fa fa-linkedin-square fa-lg" aria-hidden="true" style="color: #000"></i>
-                    </a>
+                <div class="col-md-6 col-sm-12">
+                    <div class="text-end text-center text-dark">
+                        <a class="px-2" href="https://www.tiktok.com/@homescopere?_t=8ks9ZbizlaL&_r=1"
+                            target="__blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                                viewBox="0 0 48 48">
+                                <path fill="#212121" fill-rule="evenodd"
+                                    d="M10.904,6h26.191C39.804,6,42,8.196,42,10.904v26.191 C42,39.804,39.804,42,37.096,42H10.904C8.196,42,6,39.804,6,37.096V10.904C6,8.196,8.196,6,10.904,6z"
+                                    clip-rule="evenodd"></path>
+                                <path fill="#ec407a" fill-rule="evenodd"
+                                    d="M29.208,20.607c1.576,1.126,3.507,1.788,5.592,1.788v-4.011 c-0.395,0-0.788-0.041-1.174-0.123v3.157c-2.085,0-4.015-0.663-5.592-1.788v8.184c0,4.094-3.321,7.413-7.417,7.413 c-1.528,0-2.949-0.462-4.129-1.254c1.347,1.376,3.225,2.23,5.303,2.23c4.096,0,7.417-3.319,7.417-7.413L29.208,20.607L29.208,20.607 z M30.657,16.561c-0.805-0.879-1.334-2.016-1.449-3.273v-0.516h-1.113C28.375,14.369,29.331,15.734,30.657,16.561L30.657,16.561z M19.079,30.832c-0.45-0.59-0.693-1.311-0.692-2.053c0-1.873,1.519-3.391,3.393-3.391c0.349,0,0.696,0.053,1.029,0.159v-4.1 c-0.389-0.053-0.781-0.076-1.174-0.068v3.191c-0.333-0.106-0.68-0.159-1.03-0.159c-1.874,0-3.393,1.518-3.393,3.391 C17.213,29.127,17.972,30.274,19.079,30.832z"
+                                    clip-rule="evenodd"></path>
+                                <path fill="#fff" fill-rule="evenodd"
+                                    d="M28.034,19.63c1.576,1.126,3.507,1.788,5.592,1.788v-3.157 c-1.164-0.248-2.194-0.856-2.969-1.701c-1.326-0.827-2.281-2.191-2.561-3.788h-2.923v16.018c-0.007,1.867-1.523,3.379-3.393,3.379 c-1.102,0-2.081-0.525-2.701-1.338c-1.107-0.558-1.866-1.705-1.866-3.029c0-1.873,1.519-3.391,3.393-3.391 c0.359,0,0.705,0.056,1.03,0.159V21.38c-4.024,0.083-7.26,3.369-7.26,7.411c0,2.018,0.806,3.847,2.114,5.183 c1.18,0.792,2.601,1.254,4.129,1.254c4.096,0,7.417-3.319,7.417-7.413L28.034,19.63L28.034,19.63z"
+                                    clip-rule="evenodd"></path>
+                                <path fill="#81d4fa" fill-rule="evenodd"
+                                    d="M33.626,18.262v-0.854c-1.05,0.002-2.078-0.292-2.969-0.848 C31.445,17.423,32.483,18.018,33.626,18.262z M28.095,12.772c-0.027-0.153-0.047-0.306-0.061-0.461v-0.516h-4.036v16.019 c-0.006,1.867-1.523,3.379-3.393,3.379c-0.549,0-1.067-0.13-1.526-0.362c0.62,0.813,1.599,1.338,2.701,1.338 c1.87,0,3.386-1.512,3.393-3.379V12.772H28.095z M21.635,21.38v-0.909c-0.337-0.046-0.677-0.069-1.018-0.069 c-4.097,0-7.417,3.319-7.417,7.413c0,2.567,1.305,4.829,3.288,6.159c-1.308-1.336-2.114-3.165-2.114-5.183 C14.374,24.749,17.611,21.463,21.635,21.38z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                        <a class="px-2" href="https://www.facebook.com/homescopere?mibextid=LQQJ4d" target="__blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                                viewBox="0 0 48 48">
+                                <path fill="#3f51b5" d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"></path>
+                                <path fill="#fff"
+                                    d="M29.368,24H26v12h-5V24h-3v-4h3v-2.41c0.002-3.508,1.459-5.59,5.592-5.59H30v4h-2.287 C26.104,16,26,16.6,26,17.723V20h4L29.368,24z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a class="px-2"
+                            href="https://www.instagram.com/homescopere?igsh=ZG5penR0YnpzNjRz&utm_source=qr"
+                            target="__blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                                viewBox="0 0 48 48">
+                                <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38"
+                                    cy="42.035" r="44.899" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#fd5"></stop>
+                                    <stop offset=".328" stop-color="#ff543f"></stop>
+                                    <stop offset=".348" stop-color="#fc5245"></stop>
+                                    <stop offset=".504" stop-color="#e64771"></stop>
+                                    <stop offset=".643" stop-color="#d53e91"></stop>
+                                    <stop offset=".761" stop-color="#cc39a4"></stop>
+                                    <stop offset=".841" stop-color="#c837ab"></stop>
+                                </radialGradient>
+                                <path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)"
+                                    d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z">
+                                </path>
+                                <radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786"
+                                    cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#4168c9"></stop>
+                                    <stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop>
+                                </radialGradient>
+                                <path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)"
+                                    d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z">
+                                </path>
+                                <path fill="#fff"
+                                    d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z">
+                                </path>
+                                <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
+                                <path fill="#fff"
+                                    d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a class="px-2" href="https://www.linkedin.com/company/homescope-real-estate/"
+                            target="__blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30"
+                                viewBox="0 0 48 48">
+                                <path fill="#0288D1"
+                                    d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z">
+                                </path>
+                                <path fill="#FFF"
+                                    d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 <div class="navbar-area" style="background:#3E3C3D">
     <div class="mobile-responsive-nav">
         <div class="container">
             <div class="mobile-responsive-menu">
                 <div class="logo">
                     <a href="/">
-                        <img src="@if($generalsettings){{ asset('assets/images/logo') }}/{{ $generalsettings->logo }}@endif" class="main-logo" alt="Homescope Real Estate" style="width:150px">
-                        <img src="@if($generalsettings){{ asset('assets/images/logo') }}/{{ $generalsettings->logo }}@endif" class="white-logo" alt="Homescope Real Estate" style="width:150px">
+                        <img src="@if ($generalsettings) {{ asset('assets/images/logo') }}/{{ $generalsettings->logo }} @endif"
+                            class="main-logo" alt="Homescope Real Estate" style="width:150px">
+                        <img src="@if ($generalsettings) {{ asset('assets/images/logo') }}/{{ $generalsettings->logo }} @endif"
+                            class="white-logo" alt="Homescope Real Estate" style="width:150px">
                     </a>
                 </div>
 
@@ -53,47 +115,49 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="/">
-                    <img src="@if($generalsettings){{ asset('assets/images/logo') }}/{{ $generalsettings->logo }}@endif" class="main-logo" alt="Homescope Real Estate" style="width:150px">
-                    <img src="@if($generalsettings){{ asset('assets/images/logo') }}/{{ $generalsettings->logo }}@endif" class="white-logo" alt="Homescope Real Estate" style="width:150px">
+                    <img src="@if ($generalsettings) {{ asset('assets/images/logo') }}/{{ $generalsettings->logo }} @endif"
+                        class="main-logo" alt="Homescope Real Estate" style="width:150px">
+                    <img src="@if ($generalsettings) {{ asset('assets/images/logo') }}/{{ $generalsettings->logo }} @endif"
+                        class="white-logo" alt="Homescope Real Estate" style="width:150px">
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item">
-                            <a href="{{route('index')}}" class="nav-link active">
+                            <a href="{{ route('index') }}" class="nav-link active">
                                 Home
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="{{route('secondary.property')}}" class="nav-link">
+                            <a href="{{ route('secondary.property') }}" class="nav-link">
                                 Secondary Properties
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{route('offplan.property')}}" class="nav-link">
+                            <a href="{{ route('offplan.property') }}" class="nav-link">
                                 Off Plan
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{route('about')}}" class="nav-link">
+                            <a href="{{ route('about') }}" class="nav-link">
                                 About
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{route('team')}}" class="nav-link">
+                            <a href="{{ route('team') }}" class="nav-link">
                                 Our Team
                             </a>
                         </li>
-                         <li class="nav-item">
-                            <a href="{{route('careers')}}" class="nav-link">
-                               Careers
+                        <li class="nav-item">
+                            <a href="{{ route('careers') }}" class="nav-link">
+                                Careers
                             </a>
                         </li>
 
 
                         <li class="nav-item">
-                            <a href="{{route('contact')}}" class="nav-link">Contact Us</a>
+                            <a href="{{ route('contact') }}" class="nav-link">Contact Us</a>
                         </li>
 
                     </ul>
@@ -111,8 +175,8 @@
 <!--                <div class="row">-->
 <!--                    <div class="col-md-12">-->
 <!--                        <nav class="navbar navbar-expand-lg">-->
-<!--                            <a class="navbar-brand" href="{{route('index')}}">-->
-<!--                                <img src="@if($generalsettings){{ asset('assets/images/logo') }}/{{ $generalsettings->logo }}@endif" alt="" style="width:150px"></a>-->
+<!--                            <a class="navbar-brand" href="{{ route('index') }}">-->
+<!--                                <img src="@if ($generalsettings) {{ asset('assets/images/logo') }}/{{ $generalsettings->logo }} @endif" alt="" style="width:150px"></a>-->
 <!--                            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
 <!--                                <span class="icon-bar"></span>-->
 <!--                                <span class="icon-bar"></span>-->
@@ -121,7 +185,7 @@
 <!--                            <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
 <!--                                <ul class="navbar-nav m-auto">-->
 <!--                                    <li class="nav-item">-->
-<!--                                        <a class="nav-link" href="{{route('index')}}">Home-->
+<!--                                        <a class="nav-link" href="{{ route('index') }}">Home-->
 <!--                                        </a>-->
 
 <!--                                    </li>-->
