@@ -1235,7 +1235,7 @@
                                             <div class="messages"></div>
 
                                             <div class="controls">
-                                                <div class="form-group form-group-with-icon">
+                                                {{-- <div class="form-group form-group-with-icon">
                                                     <i class="fa fa-user"></i>
                                                     <label>Full Name</label>
                                                     <input id="form_name" type="text" name="full_name"
@@ -1299,11 +1299,11 @@
                                                         class="form-control" placeholder="Nationality">
                                                     <div class="form-control-border"></div>
                                                     <div class="help-block with-errors"></div>
-                                                </div>
+                                                </div> --}}
                                                 <div class="form-group form-group-with-icon">
                                                     <i class="fa fa-file"></i>
                                                     <label>Upload Resume</label>
-                                                    <input id="form_email" type="file" name="resume"
+                                                    <input required id="form_email" type="file" name="resume"
                                                         class="form-control" placeholder="">
                                                     <div class="form-control-border"></div>
                                                     <div class="help-block with-errors"></div>

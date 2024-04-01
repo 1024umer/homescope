@@ -25,8 +25,8 @@ $settings = \App\Models\GeneralSetting::find(1);
 							<td style="padding:20px 30px 15px">
 								<h1 style="color:#fff;font-size:27px;font-weight:bold;line-height:27px">New Job Application</h1>
 								<p style="font-size:17px;line-height:24px;margin:16px 0;color:#fff">
-								   
-								    
+
+
 								</p>
 							</td>
 							<td style="padding:30px 10px"></td>
@@ -39,21 +39,21 @@ $settings = \App\Models\GeneralSetting::find(1);
 							<td>
 								<h2 style="margin:0 0 15px;font-weight:bold;font-size:21px;line-height:21px;color:#0c0d0e"></h2>
 								<p style="font-size:15px;line-height:21px;margin:16px 0;color:#3c3f44">
-								     Full Name: {{$application->full_name}}<br><br>
+								     {{-- Full Name: {{$application->full_name}}<br><br>
 								    Email: {{$application->email}}<br><br>
 								    Driving License: {{$application->driving_license}}<br><br>
 								    Car: {{$application->car}}<br><br>
 								    Experience in Dubai: {{$application->experience_in_dubai}}<br><br>
 								    Visa Type: {{$application->visa_status}}<br><br>
 								    Visa Validity: {{$application->visa_validity}}<br><br>
-								    Nationality: {{$application->nationality}}<br><br>
+								    Nationality: {{$application->nationality}}<br><br> --}}
 								</p>
 								<hr style="width:100%;border:none;border-top:1px solid #eaeaea;margin:30px 0" />
-								
+
 								<p style="font-size:15px;line-height:21px;margin:16px 0;color:#3c3f44">Feel free to contact us directly if you have any queries or suggestions by simply replying to this email.</p>
 								<hr style="width:100%;border:none;border-top:1px solid #eaeaea;margin:30px 0" />
 								<h2 style="margin:0 0 15px;font-weight:bold;font-size:21px;line-height:21px;color:#0c0d0e">Thank you for choosing our company.</h2>
-								
+
 							</td>
 						</tr>
 					</tbody>
